@@ -1,0 +1,303 @@
+.homepage-size{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../img/bg-masthead.jpg);
+    background-position: center;
+    min-height: 35rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    padding: 15rem 0;
+    position: relative;
+
+
+}
+
+@media (min-width: 1400px){
+    .container {
+    max-width: 1320px;
+}
+}
+
+
+
+#homepage h1{
+    font-size: 6.8rem;
+}
+
+
+
+
+/* Navbar*/
+.navbar-toggler{
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #64a19d !important;
+    border: 1px solid #64a19d !important;
+    float: left;
+}
+
+
+
+
+.svg-navbar{
+    
+height: 1em;
+vertical-align: -3px;
+}
+
+/* /Navbar*/
+
+
+
+
+/* about section*/
+.about-size{
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    color: white;
+
+}
+h1{ color: azure;}
+h3{ text-align: center; }
+h4{margin-top: 50px;
+    color: white;}
+
+a.btn.btn-primary{margin-top: 50px;}
+
+
+.about-size h2{
+    font-size:2rem;
+    color: white ;
+}
+
+
+.about-size p{
+    font-size:16px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 5rem;
+    margin: 0;
+}
+
+/* /about*/
+
+
+
+/* project section*/
+
+.project-size{
+    padding: 10rem 0;
+}
+
+
+.project-size p{
+
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.project-size h4{
+
+    text-align: center; 
+}
+
+@media only screen and (min-width: 992px) {
+    .border-box{
+        padding: 0 0 0 2rem;
+        border-left: 0.5rem solid #64a19d;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .border-box{
+        padding: 2rem;
+    }
+}
+
+
+
+.color-box-project{
+    background-color: black;
+}
+
+.propriety-text-project{
+    padding: 5rem;
+    
+}
+@media only screen and (max-width: 992px) {
+    .propriety-text-project{
+        padding: 3rem;
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .margin-box-sm{
+       margin-bottom: 2rem;
+    }
+}
+
+
+
+
+
+.propriety-text-project p{
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.propriety-text-project h3{
+    color: white;
+    
+}
+
+
+/* /project section*/
+
+/* subscribe*/
+
+.subscribe-size{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../img/bg-signup.jpg);
+    padding: 10rem 0;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    position: relative;
+    color: white;
+}
+
+
+
+
+.svg-subscribe{
+    color: white;
+    height: 3em;
+    
+}
+
+
+.form-control{
+    padding: 1.25rem 2rem;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+
+.btn-form{
+    padding: 1.25rem 2rem;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #64a19d;
+    border-color: #64a19d;
+  
+}
+
+
+.btn-form:hover{
+    background-color: transparent;
+    border-color: #64a19d;
+    color: white;
+
+}
+
+
+/* /subscribe*/
+
+
+
+.contact-size hr{
+    width: 3rem;
+}
+
+
+.contact-size h4{
+    font-size: 0.8rem;
+}
+
+.svg-card{
+    color: #64a19d;
+    height: 1.125em;
+
+}
+
+
+
+.contact-size .description-card{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8em;
+}
+
+
+
+.contact-size{
+    background-color: #000;
+    padding: 5rem 0;
+}
+
+
+
+.color-box-contact{
+    background-color: white;
+    border-bottom: 0.25rem solid #64a19d;
+   
+
+    
+}
+
+
+.contact-size .contenuto{
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.icone-social{
+    margin-top: 5rem;
+    justify-content: center;
+    box-sizing:border-box;
+    text-align: center;
+    height: 4rem;
+    
+    padding: 2rem;
+    
+
+}
+
+
+
+
+.icone-social a svg{
+    height: 20px;
+    color: white;
+    margin: 0 1rem;
+}
+
+
+
+
+
+
+
+.footer-align{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5rem 0;
+}
+
+
+.section-footer{
+    background-color: black;
+    }
