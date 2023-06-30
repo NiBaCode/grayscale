@@ -12,7 +12,7 @@
 
 }
 
-@media (max-width: 576px){
+@media (min-width: 1400px){
     .container {
     max-width: 1320px;
 }
@@ -24,10 +24,11 @@
     font-size: 6.8rem;
 }
 
-#homepage h1{
-    font-size: 6.8rem;
+@media (max-width: 576px){
+    #homepage h1 {
+    font-size: 4rem;
 }
-
+}
 
 
 
